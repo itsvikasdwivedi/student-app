@@ -18,7 +18,7 @@ const Slider = () => {
         <>
             <Box>
                 <Box paddingLeft={'20%'} paddingRight={'20%'} >
-                    <AliceCarousel padding={'30px'} mouseTracking items={items} />
+                    <AliceCarousel  mouseTracking items={items} />
                 </Box>
                 <Box textAlign='inherit' paddingLeft={'20%'} >
                     <Text fontSize={'xl'}>ESTUDEE Student App Landing Page Dark Mode</Text>

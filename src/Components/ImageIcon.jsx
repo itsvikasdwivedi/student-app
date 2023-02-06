@@ -22,7 +22,9 @@ export default function ImageIcon() {
         <Flex
             justifyContent="center"
             alignItems="center"
-            h="216px"
+            // h="216px"
+            paddingTop={'60px'}
+            paddingBottom={'30px'}
             w="full"
             gap={2}
             overflow="hidden">
@@ -52,13 +54,8 @@ export default function ImageIcon() {
                     top={0}
                 />
             </Box>
-            <Box>
         <Text as={'b'} fontSize='md'>Exploration : ESTUDEE Student App Landing Page Dark Mode</Text>
-        <Text fontSize={'md'} >Triyandi Saputra for Sans Brothers
-•
-Follow
-•
-Hire Us</Text>
+            <Box>
             </Box>
         <Button colorScheme='gray'>Save</Button>
         <Button colorScheme='pink'>🤍Like</Button>
